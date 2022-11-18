@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(/image/neon.jpg);
+}
+.logo{
+  max-width: 40px;
+  max-height: 45px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  background-color: rgba(113, 140, 140, 0.204);
+}
+nav li{
+  list-style-type: none;
+  justify-content: center;
+}
+nav li a{
+  color: #fff;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  transition: all 900ms;
+  padding: 10px 25px;
+}
+nav a:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
